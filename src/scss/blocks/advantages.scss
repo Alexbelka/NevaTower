@@ -1,0 +1,40 @@
+.advantages{
+  min-height: 1290px;
+  background: url('../../../build/jpg/Thumb.jpg');
+  background-size: 100% 100%;
+  color:rgb(255,255,255);
+  text-align: center;
+}
+
+.advantages-wrapper{
+  min-height: inherit;
+  background-color: rgba(71,52,98,0.8);
+}
+
+.advantages-features__item{
+  margin-top: 20px;
+}
+
+.advantages__state{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.advantages-features__state{
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.advantages-features__text{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media(min-width:1229px){
+ .advantages-features__state {
+   margin-top: 55px;
+ }
+}

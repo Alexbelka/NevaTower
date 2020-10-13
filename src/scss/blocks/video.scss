@@ -1,0 +1,19 @@
+.video{
+  position: relative;
+  min-height: 600px;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.video-element{
+position: absolute;
+  z-index: -1;
+  top:0;
+  left:0;
+  width: auto;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+

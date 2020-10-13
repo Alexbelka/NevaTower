@@ -1,0 +1,57 @@
+.choice-picture{
+  width:90%;
+  margin: 25px auto 25px;
+}
+
+.choice-picture__item{
+  background-color: rgb(255,255,255);
+  min-height: 30px;
+  text-align: center;
+
+}
+
+
+.choice-picture__item--window{
+ background-image:url('../../../build/jpg/window.jpg');
+  background-size: 100% 100%;
+  min-height: 395px;
+}
+
+.choice-picture__item--panarama{
+  background-image:url('../../../build/jpg/Panarama.jpg');
+  background-size: 100% 100%;
+  min-height: 395px;
+}
+
+
+.choice-picture__item-btn{
+  display: block;
+  margin: 15px auto 0;
+  width:170px;
+  height: 40px;
+  background-color: rgb(142,56,203);
+  background-image: -moz-linear-gradient( 90deg, rgb(89,32,129) 0%, rgb(179,71,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(89,32,129) 0%, rgb(179,71,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(89,32,129) 0%, rgb(179,71,255) 100%);
+  box-shadow: 0 1px 17.2px 2.8px rgba(0, 0, 0, 0.1);
+  color:rgb(255,255,255);
+  text-transform: uppercase;
+  border:none;
+  outline: none;
+}
+
+.choice-picture__item--text h4 p{
+  color:rgb(112,111,110);
+}
+
+.choice-picture__item--text{
+  padding: 20px 0 20px;
+}
+
+
+
+@media(min-width: 1229px){
+  .choice-picture{
+    width: 45%;
+  }
+}

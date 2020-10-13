@@ -1,0 +1,17 @@
+.wrapper{
+  position: relative;
+  font-family:"Noto Sans",sans-serif;
+}
+
+.inner-wrapper{
+  min-height: inherit;
+  padding: 0 30px 0;
+  border-top:1px solid transparent;
+}
+
+@media(min-width: 1229px){
+  .inner-wrapper{
+    width:1229px;
+    margin:auto;
+  }
+}

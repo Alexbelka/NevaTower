@@ -1,0 +1,43 @@
+.footer{
+  min-height: 632px;
+  width: 100%;
+  position: relative;
+}
+
+.footer-inside{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.footer-contacts{
+  position: absolute;
+  bottom:15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  left: 5%;
+  z-index: 3;
+  min-height: 272px;
+  width: 40%;
+  background-color: rgb(39,16,70);
+  color:rgb(255,255,255);
+}
+
+.footer-contacts h2{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.footer-contacts p{
+  margin-top: 15px;
+}
+
+.footer-contacts >div{
+  margin-top: 20px;
+}
+
+.footer-contacts > div ~ h3{
+  font-weight: 400;
+}

@@ -1,0 +1,31 @@
+.header{
+  width: 100%;
+  background-color: rgb(39,16,70);
+  min-height: 200px;
+  color:rgb(255,255,255);
+  text-transform: uppercase;
+}
+
+.header-info{
+  margin: auto;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header-info__item{
+  text-align: center;
+}
+
+@media(min-width: 1229px){
+  .header{
+    min-height:75px;
+  }
+
+  .header-info{
+    flex-direction:row;
+    align-items: center;
+  }
+
+}

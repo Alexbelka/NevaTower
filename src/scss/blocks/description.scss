@@ -1,0 +1,81 @@
+.description{}
+
+.description__menu li{
+  min-height: 252px;
+  color:rgb(255,255,255);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.description__menu--state,
+.description__menu li > div > h4{
+  text-transform: uppercase;
+  color:rgb(255,255,255);
+  text-align: center;
+}
+
+.description__menu-cursive{
+  font-style: italic;
+  font-size: 14px;
+}
+
+.description__menu-presentation,
+.description__menu-sweeties{
+  background-color: rgb(39,16,70);
+}
+
+.description__menu-business{
+  background-color: rgb(89,32,129);
+}
+
+.description__menu-locations{
+  background-image: url("../../../build/jpg/City.jpg");
+  background-size: 100% 100%;
+}
+
+.description-wrapper{
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  min-height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.description__menu-relax{
+  background-image:url('../../../build/jpg/Bathjpg.jpg');
+  background-size: 100% 100%;
+}
+
+
+@media(min-width:1229px){
+  .description__menu{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .description__menu-sweeties{
+  width: 30%;
+  }
+
+  .description__menu-business{
+    width: 20%;
+  }
+
+  .description__menu-locations,
+  .description__menu-presentation,
+  .description__menu-relax{
+    width: 50%;
+  }
+  .description__menu-relax{
+    order: 4;
+  }
+
+  .description__menu-presentation{
+    order:5;
+  }
+
+}
+
