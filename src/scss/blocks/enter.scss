@@ -9,10 +9,21 @@
   justify-content: center;
 }
 
-
 .enter__container{
   min-height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
+.enter__container-state{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.enter__container-text{
+  font-size: 18px;
+  line-height: 36px;
+}
+

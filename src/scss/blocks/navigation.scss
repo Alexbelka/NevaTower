@@ -17,7 +17,7 @@
   line-height: 24px;
   margin-bottom: 10px;
   text-transform: uppercase;
-
+  font-weight: 400;
 }
 
 .navigation__range li,
@@ -27,10 +27,11 @@
 }
 
 .navigation__state{
-  text-align: center;
+  text-align: left;
   margin-top: 150px;
   font-size:40px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .navigation__range{
@@ -40,8 +41,10 @@
 
 .navigation__range li{
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 30px;
 }
+
 
 @media(min-width:1229px){
   .navigation{

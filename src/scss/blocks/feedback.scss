@@ -79,11 +79,8 @@
     width: 40%;
   }
 
-  .feedback-form__item--text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .feedback-form__state{
+    text-align: left;
   }
 
 }

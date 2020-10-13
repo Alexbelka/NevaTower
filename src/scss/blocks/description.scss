@@ -9,6 +9,16 @@
   justify-content: space-around;
 }
 
+.description__menu-state{
+  font-size:18px;
+  line-height: 24px;
+}
+
+.description__menu-text{
+  font-size: 16px;
+  line-height: 24px;
+}
+
 .description__menu--state,
 .description__menu li > div > h4{
   text-transform: uppercase;
@@ -19,6 +29,7 @@
 .description__menu-cursive{
   font-style: italic;
   font-size: 14px;
+  line-height: 24px;
 }
 
 .description__menu-presentation,
@@ -31,12 +42,11 @@
 }
 
 .description__menu-locations{
-  background-image: url("../../../build/jpg/City.jpg");
-  background-size: 100% 100%;
+  background: url("../jpg/City.jpg")  no-repeat center top/cover;
 }
 
 .description-wrapper{
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.6);
   width: 100%;
   min-height: 252px;
   display: flex;
@@ -45,8 +55,7 @@
 }
 
 .description__menu-relax{
-  background-image:url('../../../build/jpg/Bathjpg.jpg');
-  background-size: 100% 100%;
+  background:url('../jpg/Bathjpg.jpg')  no-repeat center top/cover;
 }
 
 
