@@ -16,4 +16,8 @@ position: absolute;
   min-width: 100%;
 }
 
-
+@media(min-width:1229px){
+  .video{
+    min-height: 1125px;
+  }
+}

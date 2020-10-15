@@ -3,27 +3,35 @@
   background-color:rgb(71,52,98);
   text-align: center;
   color:rgb(255,255,255);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding:20px 20px 15px;
 }
 
-.enter__container{
-  min-height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.enter__container-state{
+.enter__state{
   font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 22px;
+  line-height: 26px;
 }
 
-.enter__container-text{
+.enter__text{
   font-size: 18px;
-  line-height: 36px;
+  line-height: 24px;
+  margin-top: 10px;
 }
 
+@media(min-width: 1229px){
+  .enter{
+    padding-top: 92px;
+  }
+  .enter__state{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .enter__text{
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 0;
+  }
+
+}

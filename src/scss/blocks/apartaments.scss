@@ -1,11 +1,13 @@
 .apartments{
-  min-height:140px;
+  min-height:240px;
   background-color: rgb(39,16,70);
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   color:rgb(255,255,255);
+}
+
+
+.apartments-wrapper{
+  padding: 20px;
 }
 
 .apartments h4{
@@ -17,10 +19,17 @@
 .apartments p{
   font-size: 18px;
   line-height:30px;
+  margin-top: 30px;
 }
 
 .lock{
   height: 200px;
   width: 100%;
   background-color: black;
+}
+
+@media(min-width: 1229px) {
+  .apartments-wrapper {
+    padding: 46px 210px 60px;
+  }
 }

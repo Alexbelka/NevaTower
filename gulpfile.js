@@ -42,7 +42,7 @@ function Jpg(){
 }
 
 function Png(){
-    return gulp.src(['src/png/*.png'])
+    return gulp.src(['src/img/*.png'])
         .pipe(imgMin())
         .pipe(gulp.dest('build/img'))
 }

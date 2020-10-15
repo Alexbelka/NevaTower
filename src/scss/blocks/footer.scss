@@ -14,16 +14,42 @@
 
 .footer-contacts{
   position: absolute;
-  bottom:15px;
-  padding-left: 10px;
-  padding-top: 20px;
-  left: 5%;
+  left:5%;
+  top:5%;
+  padding:  5px;
   z-index: 3;
-  min-height: 272px;
-  width: 40%;
+  height: 200px;
+  width: 200px;
   background-color: rgb(39,16,70);
   color:rgb(255,255,255);
 }
+
+.footer-contacts h2{
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.footer-contacts p{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footer-phones{
+  position:relative;
+}
+
+.footer-phones h3{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.footer-fonts__whatsApp{
+  position:absolute;
+  top:22px;
+  right: 20px;
+}
+
 
 .footer-contacts h2{
   text-transform: uppercase;
@@ -31,13 +57,52 @@
 }
 
 .footer-contacts p{
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .footer-contacts >div{
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .footer-contacts > div ~ h3{
   font-weight: 400;
+}
+
+@media(min-width: 1229px){
+  .footer-contacts{
+    position: absolute;
+    left:20%;
+    top:15%;
+    padding: 70px 55px 70px 47px;
+    z-index: 3;
+    height: 372px;
+    width: 372px;
+    background-color: rgb(39,16,70);
+    color:rgb(255,255,255);
+  }
+  .footer-contacts h2{
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .footer-contacts p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer-phones h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .footer-contacts p{
+    margin-top: 15px;
+  }
+  .footer-contacts >div{
+    margin-top: 20px;
+  }
+  .footer-fonts__whatsApp{
+    position:absolute;
+    top:32px;
+    right: 50px;
+  }
 }

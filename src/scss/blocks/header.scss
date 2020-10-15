@@ -1,34 +1,161 @@
-//.header{
-//  width: 100%;
-//  background-color: rgb(39,16,70);
-//  min-height: 200px;
-//  color:rgb(255,255,255);
-//  text-transform: uppercase;
-//}
-//
-//.header-info{
-//  margin: auto;
-//  min-height: inherit;
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: space-around;
-//}
-//
-//.header-info__item{
-//  text-align: center;
-//}
-
 
   .header{
     min-height:75px;
     background-color: rgb(39,16,70);
   }
 
+  .header-navigation{
+    min-height: 75px;
+    position:relative;
+  }
+
+  .block{
+    width: 30px;
+    height: 30px;
+    background-color: #e8e8e8;
+  }
+
   .header-info{
+    min-height: 75px;
     display: flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content: space-around;
     align-items: center;
   }
+
+  .header-info__item{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-info__item--active{
+    position:relative;
+  }
+
+  .header-menu{
+  min-height: 75px;
+  }
+
+  .header-menu__item{
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid black;
+  }
+
+  .header-menu__item:nth-child(7){
+    border-bottom: 0;
+  }
+
+  .header-menu__item a{
+    color:rgb(255,255,255);
+  }
+
+  .header-info__open{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:0;
+    right:-20px;
+    cursor:pointer;
+  }
+
+  .header-info__close{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border:1px solid black;
+    top:0;
+    right:0;
+    cursor:pointer;
+    background-color: black;
+  }
+
+
+  .header-container p{
+    color:rgb(255,255,255);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header-container{
+    position:relative;
+    margin-left: 25px;
+  }
+
+  .header-container__green-whatsapp{
+    position:absolute;
+    left:-25px;
+    bottom:3px;
+  }
+
+
+  .header-container__white-whatsapp{
+    position:absolute;
+    left:-25px;
+    top:3px;
+  }
+
+  @media(max-width: 1228px) {
+    .header-menu__closed {
+      display: none;
+    }
+  }
+
+@media(min-width:1229px){
+
+  .header-menu__item{
+    border:none;
+  }
+
+  .header-menu__closed{
+    display: block;
+  }
+
+  .header-container{
+    margin-left: 20px;
+  }
+
+  .header-logo{
+    width: 152px;
+    height: 72px;
+    background: url('../img/logoReno.png');
+  }
+
+  .header-info__open{
+    display: none;
+  }
+
+  .header-menu{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header-menu__item{
+    padding: 0 15px 0;
+    cursor: pointer;
+  }
+
+  .header-menu__item a{
+    display: flex;
+    width:100%;
+    height: 100%;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+  }
+
+}
 
 

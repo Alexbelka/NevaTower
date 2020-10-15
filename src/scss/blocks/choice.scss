@@ -1,7 +1,6 @@
 .choice{
   min-height: 615px;
-  background-image: url("../../../build/jpg/flowers.jpg");
-  background-size:100% 100%;
+  background: url("../jpg/flowers.jpg") no-repeat center top/cover;
 }
 
 .choice-wrapper{
@@ -16,8 +15,11 @@
 .choice-wrapper h2{
   text-transform: uppercase;
   text-align: center;
-  color:rgb(148,65,210);
-  margin-top: 10px;
+  color:rgb(255,255,255);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 30px 0 30px;
 }
 
 
@@ -29,6 +31,18 @@
 
 @media(min-width:1229px){
 .choice-container{
+  margin: auto;
+  width: 1229px;
+  padding: 0 30px 0;
   flex-direction: row;
 }
+  .choice-wrapper h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(255,255,255);
+    margin-top: 51px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+  }
 }

@@ -9,6 +9,10 @@
 
 }
 
+.inside-container__block{
+  padding: 0 10px 0;
+}
+
 .container{
   width: 1170px;
   margin:auto;
@@ -100,3 +104,10 @@ h1{
 }
 
 
+@media(min-width: 1229px){
+  .inside-container__block{
+    width: 1229px;
+    box-shadow: inset 0 0 2px 2px red;
+    margin:auto;
+  }
+}
